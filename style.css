@@ -1,10 +1,20 @@
 @import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap');
 
 #canvas {
     position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+p {
+  position: absolute;
+  color: #D9C592;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  top: 20px;
+  left: 20px;
 }
 
 .btn {
@@ -21,4 +31,9 @@
 .btn:hover {
   background-color: #67807A;
   box-shadow: 0 0 10px rgba(231, 74, 86,15);
+}
+
+.btn:active {
+  background-color: #E9C1B5;
+  box-shadow: 0 0 10px rgba(230, 200, 88,15);
 }
