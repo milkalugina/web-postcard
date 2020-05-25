@@ -11,7 +11,7 @@ let theta = 0;
 
 let myCanvas;
 function preload() {
-  t = loadImage('img/t.pmg');
+  t = loadImage('https://sun1.43222.userapi.com/4wcNqGzUFbFHquaM-mYsbrrlqb7_qrMKvdF5fA/X2I9pJ_3ehs.jpg');
   i = loadImage('https://sun3.43222.userapi.com/c6J0bPIatUaw01WwSawkKuMFK7jyrap8HpuTvQ/G7nXd79WnRs.jpg');
 
   s = loadImage('https://sun2.43222.userapi.com/U1cGxDRRTHQ8ge8NVzql6VqDPIFUIW49XzMqwA/Lr1dhZVcaf4.jpg');
